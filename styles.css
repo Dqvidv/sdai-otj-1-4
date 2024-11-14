@@ -1,7 +1,38 @@
 body {
+    padding: 0;
+    margin: 0;
     text-align: center;
     justify-content: center;
+    align-items: center;
     font-family: 'Arial', sans-serif;
+    background-color: gray;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #4a90e2;
+}
+
+.navbar .links {
+    display: flex;
+}
+
+.navbar .links a {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.navbar .links a:hover {
+    color: black;
+    border-bottom: 2px solid;
 }
 
 section {
@@ -12,6 +43,7 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
 }
+
 
 h1, h2, h3 {
     color: #4a90e2;
@@ -38,6 +70,13 @@ ul > li > h3 {
     font-size: 18px;
 }
 
+.food-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -49,4 +88,11 @@ footer {
 
 footer h2 {
     color: #fff;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

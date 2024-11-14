@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Dev's Food Station</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <title> Dev's Food Station</title>
 </head>
 <body>
+  <nav>
     <div class="navbar">
-        <a href="#about">About Us</a>
-        <a href="#favorites">Dev Favorites</a>
-        <a href="#location">Location</a>
-        <a href="#hours">Hours</a>
+      <div class="links">
+        <div class="link"><a href="#about">About Us</a></div>
+        <div class="link"><a href="#favorites">Dev Favorites</a></div>
+        <div class="link"><a href="#location">Location</a></div>
+        <div class="link"><a href="#hours">Hours</a></div>
       </div>
+  </nav>
     
       <section id="about">
         <h1>About Us</h1>
@@ -20,13 +24,13 @@
         <p>Dev Dish brings a unique twist to the food truck scene, offering a menu full of creative, tech-inspired dishes. Whether you're a tech enthusiast or a food lover, our offerings are designed to satisfy both your appetite and your curiosity.</p>
         <p>Dev Dish is the brainchild of Alex and Jamie, two friends who met at a hackathon and discovered a shared love for innovative cuisine. With a background in software development and a knack for culinary creativity, they embarked on a journey to deliver delicious, tech-themed dishes to the community.</p>
       </section>
-
-      <section id="Gallery">
+  <section>
+      <div class="Gallery">
         <h1>Gallery</h1>
         <img src="./assets/images/cesar-bretana-gonzalez-a3dhUC7EhYg-unsplash.jpg" alt="Image of 2 people ordering food at truck stop" height="300px">
         <img src="./assets/images/pexels-edwardeyer-1247755.jpg" alt="Image of employee handing out food to customer" height="300px">
-      </section>  
-
+    </div>
+  </section>
       <menu>
         <section>
           <h1>The Dev Dish Quarterly Menu</h1>
@@ -109,11 +113,17 @@
       <section id="favorites">
         <h1>The Developers Favorites</h1>
         <p>Enjoy Dev Dish fan favorite menu items at local events or book us for a visit to your neighborhood or for your special occasion.</p>
+      <div class="food-images">
+        <img src="https://kirbiecravings.com/wp-content/uploads/2018/03/general-tso-chicken-sliders-10-700x590.jpg" alt="" height="300px">
+        <img src="https://theninjacue.com/wp-content/uploads/2024/04/15-erin_hungsberg-0r4a4267-ninjacue-oklahoma-smash-burgers-24-3-scaled.jpg" alt="" height="300px">
+        <img src="https://www.simplyrecipes.com/thmb/kJVy9i_rrknhi0csZazshK-vi44=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2018__10__Air-Fryer-French-Fries-LEAD-VERTICAL-475437c668554fa6a187ca057f3e9a30.jpg" alt="" height="300px">
+      </div>
       </section>
     
       <section id="location">
         <h1>Location</h1>
         <p>511 Tristin Isle Park Hudsonton, Michigan</p>
+      <section id="hours">
         <h2>Hours</h2>
         <ul>
           <li><strong>Monday</strong>: 10am-7pm</li>
@@ -124,16 +134,18 @@
           <li><strong>Saturday</strong>: 12pm-12pm</li>
           <li><strong>Sunday</strong>: 12pm-12pm</li>
         </ul>
+      </section>
       </section>    
-
+    <div>
       <footer>
-        <h2>Footer</h2>
-        <p>Social Media Icons:</p>
-        <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-        </ul>
-      </footer>      
+        <h2>Social Media</h2>
+        <div class="social-links">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>Copyright (c) 2024 by David Vargas</p>
+      </footer>     
+    </div> 
 </body>
 </html>
