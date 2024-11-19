@@ -35,6 +35,11 @@ body {
     border-bottom: 2px solid;
 }
 
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
 section {
     padding: 40px;
     margin: 20px auto;
